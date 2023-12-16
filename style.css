@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+main{
+    background-color: lightblue;
+    /* background-image: url(shoping.avif); */
+    /* background-size: cover;*/
+    /* background-position: center center;
+    object-fit: cover; */ 
+}
+
+.logo img {
+    width: 150px;
+    padding-top:5px;
+}
+.shop-img{
+    height: 370px;
+    width: 100%;
+    object-fit: repea;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+    background-color:azure;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    /* margin-bottom: 70px; */
+    font-family: sans-serif;
+    /* background-image: url(shoping.avif); */
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 44vw;
+    text-align: center;
+}
+.shirt-description{
+    font-size: small;
+}
+.download{
+    /* background-image: url(shoping.avif); */
+    margin-bottom: 50px;
+}
+
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.flex {
+    display: flex;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second { 
+    max-width: 50vw;
+    margin: auto; 
+}
+
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:12px
+}
+
+.download :nth-child(2){
+    font-size: 23px;
+}
+
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third img{
+    width: 100%;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px; 
+    /* position: fixed; */
+    bottom: 0; 
+    width: 100%; 
+  }
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
